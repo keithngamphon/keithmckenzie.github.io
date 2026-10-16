@@ -1,38 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" data-theme="dark">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Keith McKenzie</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111111"><meta name="description" content="Links and contact for Keith Ngamphon McKenzie, webhost, data analyst and student.">
+  <meta property="og:title" content="Keith Ngamphon McKenzie"><meta property="og:description" content="Webhost, data analyst and student. Find Keith around the web."><meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg"><link rel="stylesheet" href="site.css"><script type="module" src="site.js"></script>
+  <title>Keith Ngamphon McKenzie</title>
 </head>
 <body>
-  <nav class="navbar">
-  <div class="logo-wrapper">
-    <a href="index.html" class="logo-link">
-      <img src="logo.png" alt="Keith McKenzie Logo">
-      <span class="logo-text">Keith McKenzie</span>
-    </a>
+  <div class="controls">
+    <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="site-menu"><span></span><span></span><span></span></button>
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light theme" title="Switch to light theme">
+      <svg class="theme-icon icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+      <svg class="theme-icon icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 15.4A8.5 8.5 0 0 1 8.6 3.8 8.6 8.6 0 1 0 20.2 15.4Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="theme-label" id="theme-label">Dark</span>
+    </button>
+    <nav class="site-menu" id="site-menu" aria-label="Main navigation" hidden><a href="index.html" aria-current="page">Home</a><a href="projects.html">Projects</a><a href="contact.html">Contact</a><a href="about.html">About</a></nav>
   </div>
-  <div>
-    <a href="index.html">Home</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html">Contact</a>
-    <a href="biography.html">Biography</a>
-  </div>
-</nav>
-
-  <div class="container">
-    <h2 id="about">About Me</h2>
-    <p>Hello! I’m <strong>Keith Ngamphon McKenzie</strong>. I was born in Bangkok and have been living in Scotland since 2016. I am interested in the science behind conputers and the field of statistics. I am also a tennis player and occasional golf player.</p>
-    <p>I am currently playing with four programming languages, Python, Java, SQL and R.  I use Python to build projects to improve my programming skills. I'm also using Python to clean and explore data, and make predictions. I’m doing all this because I want to prepare myself for an undergraduate degree in Computing Science. I've also been learning Excel, as it is a useful tool for storing data and data analysis and useful for easy graph generation, and forecasting.</p>
-    <p>Of the languages I'm playing with, my main programming languages are <strong>Python</strong> and <strong>SQL</strong>. I am looking to start a career in IT in either data science or cybersecurity - if not in tech, finance - in the not so distant future. starting with a university degree and progressing from there. This website is my little space on the Internet where I share my thoughts, projects, and ideas. Whether you’re here to connect, collaborate, or simply learn more about me and my projects — welcome.</p>
-    <p>You can reach me at <a href="mailto:keith@mckenzie.page">keith@mckenzie.page</a>. As I'm still in full time education, I do not want to recieve any job offers.</p>
-    <p>Below is a list of featured projects. For the complete list of my projects, check out the <a href="projects.html">projects</a> page.
-    <p></p>
-    <p>K N McKenzie</>
-    <p></p>
-
-  </div>
+  <main class="page">
+    <header><h1><a class="site-title" href="index.html">Keith Ngamphon McKenzie</a></h1><p class="role">Webhost, Data analyst and student</p>
+      <a class="home-email" href="mailto:keithngamphon@gmail.com"><svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 5.5h17v13h-17zM4 6l8 7 8-7" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>keithngamphon@gmail.com</span></a>
+    </header>
+    <hr class="rule">
+    <nav aria-label="Social profiles"><ul class="links">
+      <li><a href="https://www.instagram.com/keithngamphon/" target="_blank" rel="noopener noreferrer"><span class="profile-label"><svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="./social-icons.svg#icon-instagram"></use></svg><span class="network">Instagram</span></span><span class="handle">@keithngamphon</span></a></li>
+      <li><a href="https://www.youtube.com/@keithngamphon" target="_blank" rel="noopener noreferrer"><span class="profile-label"><svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="./social-icons.svg#icon-youtube"></use></svg><span class="network">YouTube</span></span><span class="handle">@keithngamphon</span></a></li>
+      <li><a href="https://x.com/keithngamphon" target="_blank" rel="noopener noreferrer"><span class="profile-label"><svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="./social-icons.svg#icon-x"></use></svg><span class="network">X</span></span><span class="handle">@keithngamphon</span></a></li>
+      <li><a href="https://www.facebook.com/keithngamphon" target="_blank" rel="noopener noreferrer"><span class="profile-label"><svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="./social-icons.svg#icon-facebook"></use></svg><span class="network">Facebook</span></span><span class="handle">@keithngamphon</span></a></li>
+      <li><a href="https://www.snapchat.com/add/keithngamphon" target="_blank" rel="noopener noreferrer"><span class="profile-label"><svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="./social-icons.svg#icon-snapchat"></use></svg><span class="network">Snapchat</span></span><span class="handle">@keithngamphon</span></a></li>
+      <li><a href="https://www.reddit.com/user/keithngamphon/" target="_blank" rel="noopener noreferrer"><span class="profile-label"><svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="./social-icons.svg#icon-reddit"></use></svg><span class="network">Reddit</span></span><span class="handle">@keithngamphon</span></a></li>
+      <li><a href="https://www.threads.net/@keithngamphon" target="_blank" rel="noopener noreferrer"><span class="profile-label"><svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="./social-icons.svg#icon-threads"></use></svg><span class="network">Threads</span></span><span class="handle">@keithngamphon</span></a></li>
+      <li><a href="https://www.pinterest.com/keithngamphon/" target="_blank" rel="noopener noreferrer"><span class="profile-label"><svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="./social-icons.svg#icon-pinterest"></use></svg><span class="network">Pinterest</span></span><span class="handle">@keithngamphon</span></a></li>
+      <li><a href="https://github.com/keithngamphon" target="_blank" rel="noopener noreferrer"><span class="profile-label"><svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="./social-icons.svg#icon-github"></use></svg><span class="network">GitHub</span></span><span class="handle">@keithngamphon</span></a></li>
+      <li><a href="https://www.kaggle.com/keithngamphon" target="_blank" rel="noopener noreferrer"><span class="profile-label"><svg class="social-icon social-icon-kaggle" viewBox="0 0 24 24" aria-hidden="true"><use href="./social-icons.svg#icon-kaggle"></use></svg><span class="network">Kaggle</span></span><span class="handle">@keithngamphon</span></a></li>
+    </ul></nav>
+    <footer>Keith Ngamphon McKenzie</footer>
+  </main>
 </body>
 </html>
